@@ -1,4 +1,4 @@
 2 спринт.
 Работа "Посмотри в окно"
 
-https://github.com/username/posmotri-v-okno-fd
+https://github.com/dssmeister/posmotri-v-okno-fd
