@@ -10,14 +10,15 @@ html {
 
 .page {
   display: flex;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  padding: 133px 0 0;
+  padding: 0;
 }
 
 h1,
@@ -52,7 +53,6 @@ ol {
 .content {
   margin: 0 auto;
   display: flex;
-  align-items: center;
   width: 1140px;
   gap: 30px;
 }
@@ -65,7 +65,7 @@ ol {
   position: relative;
   width: 710px;
   height: 386px;
-  margin: 0 0 16px;
+  margin: 0 0 10px;
 }
 
 .result__video {
@@ -108,7 +108,7 @@ ol {
     outline: 1px solid #fff;
   }
 }
-.search-form__label-text:hover{
+.search-form__label:hover .search-form__label-text{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -125,7 +125,7 @@ ol {
   height: 15px;
   background-color: #fff;
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .search-form__pseudo-checkbox {
@@ -158,7 +158,7 @@ ol {
 
 .content__details {
   width: 100%;
-  padding: 0 0 39px;
+  padding: 83px 0 39px;
 }
 
 .title {
@@ -232,6 +232,9 @@ ol {
   font-family: "Oswald", Arial, sans-serif;
   font-size: 30px;
   font-weight: 700;
+  line-height: 100%;
+  width: 196px;
+  padding-bottom: 6px;
   text-overflow: ellipsis;
   overflow: hidden;
   text-transform: uppercase;  
